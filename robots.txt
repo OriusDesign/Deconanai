@@ -1,0 +1,8 @@
+#Se bloquea a todos los robots carpetas para uso personal
+User-agent: *
+Disallow: /archivospersonales/ 
+
+#Se bloquea solo al robot de Google carpeta de ventas en Amazon
+User-Agent: Googlebot
+Disallow: /cgi-bin/
+Sitemap: http://www.deconanai.cl/sitemap.xml

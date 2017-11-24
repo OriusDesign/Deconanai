@@ -1,0 +1,3 @@
+#Se bloquea a todos los robots carpetas para uso personal
+User-agent: *
+Disallow: /archivos1/ 

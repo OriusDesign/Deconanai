@@ -1,0 +1,8 @@
+#Se bloquea a todos los robots todas las imagenes en formato gif, ademas todas las carpetas que comiencen con la palabra fotos, pero se permite la llamada fotos lindas.
+User-agent: *
+Disallow: /*.gif$
+Disallow: /fotos*/
+Allow: /fotos lindas/
+
+
+

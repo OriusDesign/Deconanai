@@ -1,0 +1,4 @@
+#Se impide que aparezcan en los buscadores fotos personales y todos los archivos PDF
+User-agent: *
+Disallow: /fotos/ 
+Disallow: /*.pdf$ 
